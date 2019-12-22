@@ -1,0 +1,26 @@
+name: ServerCore
+main: Aleondev\Main
+version: 1.0.0
+api: 
+- 3.0.0
+- 4.0.0
+load: POSTWORLD
+author: Aleondev
+description: "Core by Aleondev"
+
+commands:
+  payall:
+    description: §e[Core]§4payall
+    permission: payall.core
+  tpall:
+    description: §e[Core]§4tpall
+    permission: tpall.core
+  tpohere:
+    description: §e[Core]§4Tpohere
+    permission: tpohere.core
+  g:
+    description: §e[Core]§4G
+    permission: gm.core
+  fly:
+    description: §e[Core]§4fly
+    permission: fly.core
